@@ -1,7 +1,7 @@
 <section>
     <h2>OUR MENU</h2>
     <div [ngClass]="'selection'">
-        <div *ngFor="let title of titles; let i = index" [ngClass]="['menu', i % 2 === 1 ? 'row-reverse' : '']">
+        <div *ngFor="let title of titles; let i = index" [ngClass]="['menu', i % 2 === 1 ? 'row-reverse' : '', i === titles.length - 1 ? 'margin-bottom' : '']">
             <img [src]="img[i].src" alt="" srcset="">
             <div [ngClass]="'main-menu-div'">
                 <span class="title">{{ title.title }}</span>
