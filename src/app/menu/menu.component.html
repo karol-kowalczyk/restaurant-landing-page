@@ -1,0 +1,15 @@
+<section>
+    <h2>OUR MENU</h2>
+    <div [ngClass]="'selection'">
+        <div *ngFor="let title of titles; let i = index" [ngClass]="['menu', i % 2 === 1 ? 'row-reverse' : '']">
+            <img [src]="img[i].src" alt="" srcset="">
+            <div [ngClass]="'main-menu-div'">
+                <span class="title">{{ title.title }}</span>
+                <div *ngFor="let offer of offerClasses" [ngClass]="['offer-container', offer.class]">
+                    <span [ngClass]="['offers', offer.class]">{{ offer.name }}</span>
+                    <span [ngClass]="['offers', offer.class]">{{ offer.price }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

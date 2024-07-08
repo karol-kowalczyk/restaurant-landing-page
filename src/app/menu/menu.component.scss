@@ -1,0 +1,57 @@
+section {
+    background-image: url(../../../public/assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
+    width: 100%;
+}
+
+h2 {
+    padding: 120px 0 64px 0;
+}
+
+.selection {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    .menu {
+        display: flex;
+        padding: 0 160px;
+        gap: 80px;
+    
+        img {
+            width: 352px;
+            height: 352px;
+        }
+    
+        .main-menu-div {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    
+        .title {
+            font-family: 'Economica';
+            font-size: 56px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+    
+        .offer-container {
+            display: flex;
+            justify-content: space-between;
+            width: 75%;
+        }
+    
+        .offers {
+            color: #675E54;
+            font-family: 'Raleway';
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+    }
+
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}

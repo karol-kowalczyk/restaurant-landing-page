@@ -1,0 +1,9 @@
+<section>
+    <h2>HOW TO ORDER</h2>
+    <div ngClass="main-section">
+        <div *ngFor="let step of steps">
+            <img [src]="step.src" alt="">
+            <span [innerHTML]="step.text"></span>
+        </div>
+    </div>
+</section>

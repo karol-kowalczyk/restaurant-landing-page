@@ -1,0 +1,28 @@
+* {
+    color: #ffffff;
+    font-family: 'Raleway';
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../../public/assets/img/1-hero/JPG/hero_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+h1 {
+    font-size: 96px;
+    font-weight: bold;
+}
+
+span {
+    font-size: 24px;
+}
