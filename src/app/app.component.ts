@@ -6,10 +6,11 @@ import { MenuComponent } from './menu/menu.component';
 import { LocationComponent } from './location/location.component';
 
 
+
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, LandingPageComponent, OrderComponent, MenuComponent, LocationComponent],
+  imports: [RouterOutlet, LandingPageComponent, OrderComponent, MenuComponent, LocationComponent, AppComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
