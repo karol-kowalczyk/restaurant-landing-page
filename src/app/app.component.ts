@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { LandingPageComponent } from './landingPage/landingPage.component';
-import { OrderComponent } from './order/order.component';
-import { MenuComponent } from './menu/menu.component';
-import { LocationComponent } from './location/location.component';
+import { OrderComponent } from './landingPage/order/order.component';
+import { MenuComponent } from './landingPage/menu/menu.component';
+import { LocationComponent } from './landingPage/location/location.component';
 
 
 

@@ -9,6 +9,7 @@ import { Component } from '@angular/core';
   styleUrl: './order.component.scss'
 })
 export class OrderComponent {
+
   steps = [
     {src:'assets/img/2_section_how_to_order/PNG/broth.png', text: 'Pick<br> your noodle'},
     {src:'assets/img/2_section_how_to_order/PNG/noodle.png', text: 'Pick<br> your broth'},
